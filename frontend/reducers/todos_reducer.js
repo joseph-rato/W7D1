@@ -20,7 +20,6 @@ const initialState = {
 
 const todosReducer = (state = initialState, action) => {
   console.log("Inside the Todos reducer now");
-//  window.actions = action.receiveTodo;
   const newState = merge({}, state);
   switch(action.type) {
     case RECEIVE_TODOS:

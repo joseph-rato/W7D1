@@ -3,8 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 
-const Root = (store) => ({
-  <Provider store={store}>
-    <h1>A List of Things to Do Today</h1>
-  </Provider>
-});
+const Root = ({gnghm}) => (
+  <Provider store={store.store}>
+
+    </Provider>
+);
+
+export default Root;
