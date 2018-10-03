@@ -7,9 +7,7 @@ h1 {
 .todo-form-container {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-  box-shadow: 2px 2px;
-  padding: 20px;
+
 }
 
 .form-label{
@@ -19,4 +17,12 @@ h1 {
 
 .form-input {
   margin-right: 5px;
+}
+
+.todo-form {
+  display: flex;
+    width: 500px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+    padding: 20px;
 }
