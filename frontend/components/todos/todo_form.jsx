@@ -33,10 +33,10 @@ class TodoForm extends React.Component {
     return (
       <div className="todo-form-container">
         <form onSubmit={this.handleSubmit}>
-          <label>Task
+          <label className="form-label">Task
             <input name="title" type="text" onChange={this.handleChange}></input>
           </label>
-          <label>Description
+          <label className="form-label">Description
             <input name="body" type="text"  onChange={this.handleChange}></input>
           </label>
           <input type="submit" value="Create Task"></input>

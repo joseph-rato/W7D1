@@ -13,6 +13,7 @@ h1 {
   padding: 20px;
 }
 
-.todo-form-container < label {
-   font-family: 'Bangers', cursive;
+.form-label{
+   font-family: 'Bangers',cursive;
+   margin-right: 10px;
 }
